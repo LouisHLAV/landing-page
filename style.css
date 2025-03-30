@@ -1,0 +1,10 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container div {
+    color: #FFFFFF;
+    background: #1F2937;
+    flex: 1;
+}
