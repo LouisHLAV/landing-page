@@ -4,7 +4,7 @@ body {
     flex: 1;
 }
 
-.flex-container {
+#main-container {
     display: flex;
     flex-direction: column;
 }
