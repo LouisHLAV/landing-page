@@ -12,6 +12,10 @@ body {
     align-items: center;
 }
 
+.large-container {
+    padding: 0 120px;
+}
+
 .light-container {
     color: #1F2937;
     background: #FFFFFF;
@@ -22,6 +26,5 @@ body {
     flex-direction: column;
     flex: 1;
     height: 100%;
-    margin: 0 100px;
     justify-content: space-between;
 }
