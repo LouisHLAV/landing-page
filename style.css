@@ -7,10 +7,24 @@ body {
     background: #1F2937;
 }
 
+div {
+    display: flex;
+}
+
 .header,
 .footer {
     height: 3em;
     align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    flex-direction: row;
+}
+
+.links-container {
+    gap: 10px;
+    font-size: 12px;
 }
 
 .large-container {
