@@ -1,10 +1,21 @@
+html,
 body {
+    height: 100%;
+    margin: 0;
     color: #FFFFFF;
     background: #1F2937;
-    flex: 1;
+}
+
+.header,
+.footer {
+    height: 3em;
+    align-items: center;
 }
 
 #main-container {
     display: flex;
     flex-direction: column;
+    flex: 1;
+    height: 100%;
+    justify-content: space-between;
 }
