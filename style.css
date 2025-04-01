@@ -16,6 +16,7 @@ div {
     height: 3em;
     align-items: center;
     justify-content: space-between;
+    padding: 0 15%;
 }
 
 .header {
@@ -63,8 +64,44 @@ p.main {
     background: #6C747D;
 }
 
+.info-container {
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    align-self: center;
+}
+
+.info-images-container {
+    justify-content: center;
+    gap: 5%;
+}
+
+.image-box {
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 168px;
+    color: #1F2937;
+    font-size: 18px;
+    text-align: center;
+}
+
+.info-image {
+    height: 168px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 15px;
+}
+
 .large-container {
-    padding: 0 15%;
+    padding: 5% 15%;
+    flex: 1;
 }
 
 .light-container {
