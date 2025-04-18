@@ -121,6 +121,40 @@ p.main {
     margin: 0px;
 }
 
+.blue-box {
+    color: #F9FAF8;
+    background: #3882F6;
+    border-radius: 15px;
+    align-items: center;
+    padding: 32px 64px;
+    gap: 32px;
+}
+
+.button-space {
+    align-items: center;
+    justify-content: center;
+}
+
+.button-space > button {
+    border-color: #FFFFFF;
+    align-self: center;
+}
+
+.call-to-action-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-text {
+    font-size: 24px;
+    font-weight: 700;
+    flex-direction: column;
+}
+
+.call-to-action-text > p {
+    margin: 0px;
+}
+
 .large-container {
     padding: 5% 15%;
     flex: 1;
@@ -134,11 +168,13 @@ p.main {
 button {
     background: #3882F6;
     color: #F9FAF8;
+    font-size: 14px;
     font-weight: 900;
     align-self: flex-start;
-    border-radius: 5px;
-    padding: 5px 25px;
+    border-radius: 8px;
+    padding: 8px 24px;
     border-color: #3882F6;
+    flex-shrink: 0;
 }
 
 #main-container {
