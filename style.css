@@ -155,6 +155,12 @@ p.main {
     margin: 0px;
 }
 
+.footer {
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .large-container {
     padding: 5% 15%;
     flex: 1;
